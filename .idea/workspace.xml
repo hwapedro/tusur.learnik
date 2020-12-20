@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc481e71-0f45-4acf-90b7-806da7d2ae4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/App/Activities/CoursePage/CoursePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App/Activities/CoursePage/CoursePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/App/Activities/LessonPage/LessonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App/Activities/LessonPage/LessonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/App/Activities/LessonPage/hooks/useLessonFetcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/App/Activities/LessonPage/hooks/useLessonFetcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/lessons/events.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/lessons/events.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/lessons/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/lessons/model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/lessons/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/lessons/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ahjlRXuxNPBOgU1CTW3VIY5EoW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="D:\GPO\react-apps\learn\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc481e71-0f45-4acf-90b7-806da7d2ae4f" name="Default Changelist" comment="" />
+      <created>1587194870268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587194870268</updated>
+      <workItem from="1587194873328" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

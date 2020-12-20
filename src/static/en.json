@@ -1,0 +1,112 @@
+{
+  "navMenu": {
+    "courses": "Courses",
+    "lastTask": "Last task",
+    "achievements": "Badges",
+    "hints": "Hints",
+    "news": "News",
+    "arena": "Arena"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "restore": "Restore password",
+    "email": "Email",
+    "signin": "Email or username",
+    "username": "Username",
+    "password": "Password",
+    "forgotPasswordMessage": "Forgot your password? Click here!",
+    "returnToSigninMessage": "Already have an account? Click here!"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "tryAgain": "Try again",
+    "lessonList": "To lesson list",
+    "nextLesson": "To next lesson",
+    "start": "Start",
+    "skip": "Skip",
+    "hint": "Show hint",
+    "next": "Next",
+    "check": "Check",
+    "signin": "Sign in",
+    "createAccount": "Create",
+    "signup": "Sign up",
+    "restorePassword": "Restore",
+    "begin": "Begin"
+  },
+  "header": {
+    "courses": "Courses",
+    "news": "News",
+    "profile": "Profile",
+    "achievements": "Achievements",
+    "arena": "Arena",
+    "arenaHistory": "Match history",
+    "inQueue": "Finding opponent"
+  },
+  "coursePage": {
+    "progress": "Progress",
+    "done": "done",
+    "teoria": "theory",
+    "difficulty": {
+      "1": "Easy",
+      "2": "Normal",
+      "3": "Hard"
+    }
+  },
+
+  "lessonPage": {
+    "correct": "Correct!",
+    "incorrect": "Correct answer: ",
+    "fillTask": "Enter correct answers",
+    "testTask": "Choose correct answer",
+    "dragTask": "Fill in correct order"
+  },
+
+  "achievementPage": {
+    "notUnlocked": "You haven't unlocked this achievement yet"
+  },
+
+  "profilePage": {
+    "profile": "Profile",
+    "logout": "Logout",
+    "info": "Information",
+    "stats": "Statistics",
+    "edit": "Edit",
+    "avatar": "Profile picture"
+  },
+
+  "restartPage": {
+    "lose": "You lost",
+    "failMessage": "You'll get it next time!"
+  },
+
+  "successPage": {
+    "win": "You win!",
+    "successMessage": "Good job! Now to the next tasks!"
+  },
+  "lessonEndPage": {
+    "message": "This is the end of this lesson"
+  },
+
+  "arena": {
+    "arena": "Arena",
+    "findOpponent": "Find opponent",
+    "winMessage": "Victory!",
+    "loseMessage": "Defeat",
+    "isYou": "- you",
+    "leaderboard": "Leaderboard",
+    "pointsGained": "Points gained",
+    "totalWins": "Total wins",
+    "totalPoints": "Total points",
+    "points": "points",
+    "wrongAnswer": "Wrong",
+    "inQueue": "Searhing for opponent",
+    "cancelQueue": "Cancel search",
+    "wait": "Waiting for your opponent to finish tasks",
+    "text": "You've completed the course, now you have access to the Arena mode, win games and earn points to advance in leaderboards"
+  },
+  "404": {
+    "text": "Learnik can't find this page.",
+    "button": "Let's keep learning"
+  }
+}

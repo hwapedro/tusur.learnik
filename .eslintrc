@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb-typescript"
+  ],
+  "rules": {
+    "max-len": ["error", 120],
+    "semi": "off",
+    "comma-dangle": "off",
+    "object-curly-newline": "off",
+    "@typescript-eslint/semi": "off",
+    "import/prefer-default-export": "off",
+    "react/state-in-constructor": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/indent": ["error", 2],
+    "linebreak-style": [2, "windows"]
+  }
+}
