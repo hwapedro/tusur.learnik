@@ -1,8 +1,5 @@
 import styled, { css } from 'styled-components'
-import { NavLink } from 'react-router-dom'
 import { media } from '../../../theme/helper'
-import leftArrow from '../../../../assets/svg/left-arrow.svg'
-import rightArrow from '../../../../assets/svg/right-arrow.svg'
 
 export const DescriptionWrapper = styled.div<{ isOpen: boolean }>`
   cursor: pointer;

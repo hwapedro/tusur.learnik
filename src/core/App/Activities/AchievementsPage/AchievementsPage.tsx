@@ -1,5 +1,4 @@
-import React, { FC, useState, useEffect } from 'react'
-import { useHistory } from 'react-router-dom'
+import React from 'react'
 
 import { useAchievementsFetcher } from './hooks/useAchievementsFetcher'
 import {
@@ -15,7 +14,6 @@ import {
 } from './AchievementsPage.style'
 
 import { I18nWrapper } from '../../I18n/I18nWrapper/I18nWrapper'
-import { LoadingSpinner } from '../../LoadingSpinner/LoadingSpinner'
 
 export const AchievementsPage = () => {
   const { achievements } = useAchievementsFetcher()

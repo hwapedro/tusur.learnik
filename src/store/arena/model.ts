@@ -5,7 +5,6 @@ import {
   setArenaVictory,
   joinCurrentRoom,
   getNextTask,
-  submitTask,
   getHistory,
   setLoading,
   setError,
@@ -14,7 +13,6 @@ import {
 } from './events'
 
 import { ArenaState } from './types'
-import { ERROR_MESSAGE } from '../../constants'
 
 const initialState: ArenaState = {
   loadingRoom: true,

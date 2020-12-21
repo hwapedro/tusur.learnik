@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useHistory, useParams } from 'react-router-dom'
 import { times, isEmpty, has } from 'ramda'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
@@ -7,7 +7,6 @@ import { useLessonFetcher } from './hooks/useLessonFetcher'
 
 import { TaskSwitch } from '../../Tasks/TaskSwitch'
 
-import { Navigation } from './Navigation/Navigation'
 import { RestartPage } from './ResultPage/RestartPage/RestartPage'
 import { SuccessPage } from './ResultPage/SuccessPage/SuccessPage'
 import { LessonEndPage } from './ResultPage/LessonEndPage/LessonEndPage'
@@ -59,7 +58,6 @@ export const LessonPage = () => {
   const [currentTaskIndex, setCurrentTaskIndex] = useState<any>(0)
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [answers, addAnswer] = useState<any>([])
-  // const [answerStatus, changeAnswerStatus] = useState<any>()
   const [result, setResult] = useState<any>({})
   const [correctAnswer, setCorrectAnswer] = useState<any>([])
   const [reset, setReset] = useState<boolean>(false)
@@ -186,7 +184,6 @@ export const LessonPage = () => {
               <div>
                 <SkipButtonStyled
                   onClick={() => {
-                    const newTaskIndex = currentTaskIndex + 1
                     handleSkip(currentTask._id, currentTask.csrf)
                   }}
                 >
@@ -197,7 +194,6 @@ export const LessonPage = () => {
                 <CheckButtonStyled
                   disabled={isEmpty(answers)}
                   onClick={() => {
-                    const newTaskIndex = currentTaskIndex + 1
                     handleTaskCheck(currentTask._id, currentTask.csrf)
                   }}
                 >

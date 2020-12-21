@@ -1,10 +1,8 @@
-import React, { FC, useState } from 'react'
+import React, { FC } from 'react'
 
 import { setLanguage, setOpenLangMenu} from '../../../../store/profile/events'
 
 import {
-  I18nSwitchWrapper,
-  LanguageStyled,
   OptionWrapper,
   LanguageOptionStyled,
   CloseButtonStyled,

@@ -1,4 +1,4 @@
-import { useEffect, FC } from 'react'
+import { useEffect } from 'react'
 import { useStore } from 'effector-react'
 
 import { getProfile, getProfileStats } from '../../../../../store/profile/events'

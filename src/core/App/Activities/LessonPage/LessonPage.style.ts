@@ -1,4 +1,4 @@
-import styled, { keyframes, css} from 'styled-components'
+import styled, { css } from 'styled-components'
 import { media } from '../../../../theme/helper'
 
 export const WrapperStyled = styled.div`
@@ -385,7 +385,7 @@ export const SkipButtonStyled = styled(ButtonStyled)`
   }
 `
 
-export const CheckButtonStyled = styled(ButtonStyled)<{disabled?: boolean}>`
+export const CheckButtonStyled = styled(ButtonStyled) <{ disabled?: boolean }>`
   background: ${(props) => props.theme.checkButton};
   color: #ffffff;
   border: 1px solid #00a7e1;
@@ -422,7 +422,7 @@ export const TaskWrapperStyled = styled.span`
   }
 `
 
- export const TaskAnimation = styled.div`
+export const TaskAnimation = styled.div`
    &.task-enter {
     opacity: 0;
   }

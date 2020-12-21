@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import { media } from '../../theme/helper'
 
 export const NotificationWrapper = styled.div`
@@ -8,7 +8,7 @@ export const NotificationWrapper = styled.div`
     font-family: Rubik;
     font-style: normal;
     height: 100px;
-    background: ${(props) => props.theme.elevation2};
+    background: ${(props) => props.theme.notif};
     box-shadow: ${(props) => props.theme.boxShadow};
     border-radius: 10px;
     line-height: 17px;

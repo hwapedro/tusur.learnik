@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useStore } from 'effector-react'
 import { useParams } from 'react-router-dom'
 
-import { getLessonLastPage, setLoading } from '../../../../../store/lessons/events'
+import { getLessonLastPage } from '../../../../../store/lessons/events'
 import { lesson } from '../../../../../store/lessons/model'
 import { profileStore } from "../../../../../store/profile/model"
 

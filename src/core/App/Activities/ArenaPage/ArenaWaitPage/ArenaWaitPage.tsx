@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useHistory } from 'react-router-dom'
 import { WaitPageProps } from './ArenaWaitPage.interface'
-import { getLessonLastPage, setLoading } from '../../../../../store/lessons/events'
+import { setLoading } from '../../../../../store/lessons/events'
 
 import { I18nWrapper } from '../../../I18n/I18nWrapper/I18nWrapper'
 

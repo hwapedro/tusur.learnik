@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components'
-import { media } from '../../../../../theme/helper'
 
 export const MenuWrapper = styled.div`
   font-family: Rubik;

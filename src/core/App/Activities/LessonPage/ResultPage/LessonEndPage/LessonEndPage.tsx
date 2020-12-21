@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import { useHistory, useParams } from 'react-router-dom'
 
 import { LessonEndPageProps, ParamTypes } from './LessonEndPage.interface'
-import { getLessonLastPage, setLoading } from '../../../../../../store/lessons/events'
 import {COURSES_PAGE} from '../../../../../../global/routes'
 
 import { I18nWrapper } from '../../../../I18n/I18nWrapper/I18nWrapper'

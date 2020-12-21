@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useStore } from 'effector-react'
-import { useHistory } from 'react-router-dom'
 
 import { getHistory, getLeaderBoard } from '../../../../../store/arena/events'
 import { arena } from '../../../../../store/arena/model'

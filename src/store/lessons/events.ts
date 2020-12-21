@@ -1,8 +1,6 @@
 import { createEffect } from 'effector-logger'
 
-import api, { reqDone } from '../../global/api'
-
-import {} from './types'
+import api from '../../global/api'
 
 export const getLessonLastPage = createEffect<$TSFixMe, $TSFixMe, $TSFixMe>(
   'get all lessons'

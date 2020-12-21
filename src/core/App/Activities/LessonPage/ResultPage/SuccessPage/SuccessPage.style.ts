@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import { media } from '../../../../../../theme/helper'
 
 export const SuccessWrapper = styled.div`

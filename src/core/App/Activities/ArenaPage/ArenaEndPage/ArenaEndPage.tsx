@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useHistory } from 'react-router-dom'
 import { RestartPageProps } from './ArenaEndPage.interface'
-import { getLessonLastPage, setLoading } from '../../../../../store/lessons/events'
+import { setLoading } from '../../../../../store/lessons/events'
 
 import { I18nWrapper } from '../../../I18n/I18nWrapper/I18nWrapper'
 
@@ -21,13 +21,12 @@ export const ArenaEndPage: FC<RestartPageProps> = ({ victory, courseIndex }) => 
     switch (victory) {
       case 'win':
         return 'winMessage'
-        break
       case 'lose':
         return 'loseMessage'
-        break
       case 'draw':
         return 'drawMessage'
-        break
+      default:
+        return
     }
   }
 

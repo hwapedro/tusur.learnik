@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react'
+import React, { FC } from 'react'
 import { useStore } from 'effector-react'
 import * as ramda from 'ramda'
 

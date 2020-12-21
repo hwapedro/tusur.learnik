@@ -24,8 +24,7 @@ export const FormField: FC<FormFieldProps> = props => {
     isValid = true,
     type,
     form: { isSubmitting },
-    field: { name, value, onChange },
-    mask
+    field: { name, value, onChange }
   } = props
 
   return (

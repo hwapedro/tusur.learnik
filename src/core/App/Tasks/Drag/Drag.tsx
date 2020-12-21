@@ -19,7 +19,6 @@ import {
 
 import { DragProps } from './Drag.interface'
 
-import { I18nWrapper } from '../../I18n/I18nWrapper/I18nWrapper'
 import { profileStore } from '../../../../store/profile/model'
 import { Language } from '../../../../store/lessons/types'
 

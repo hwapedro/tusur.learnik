@@ -1,6 +1,6 @@
 import { createEffect } from 'effector-logger'
 
-import api, { reqDone } from '../../global/api'
+import api from '../../global/api'
 
 import { arenaParams, arenaVictoryParams } from './types'
 /*

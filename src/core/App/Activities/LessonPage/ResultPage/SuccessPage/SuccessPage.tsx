@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useParams } from 'react-router-dom'
 
-import { getLessonLastPage, setLoading } from '../../../../../../store/lessons/events'
+import { getLessonLastPage } from '../../../../../../store/lessons/events'
 import { SuccessPageProps } from './SuccessPage.interface'
 import { I18nWrapper } from '../../../../I18n/I18nWrapper/I18nWrapper'
 

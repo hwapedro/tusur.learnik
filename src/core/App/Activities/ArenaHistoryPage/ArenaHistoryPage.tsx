@@ -50,11 +50,13 @@ export const ArenaHistoryPage = () => {
         <UserBoardWrapper>
           <UsernameStyled>{username}</UsernameStyled>
           <StatisticTitle>
-            🥇 <I18nWrapper pathString="arena.totalWins" /> :{' '}
+            <span role="img">🥇 </span>
+            <I18nWrapper pathString="arena.totalWins" /> :{' '}
             {arenaStats.battlesTotal - arenaStats.battlesLost}{' '}
           </StatisticTitle>
           <StatisticTitle>
-            🔥 <I18nWrapper pathString="arena.totalPoints" /> : {points}
+            <span role="img">🔥 </span>
+            <I18nWrapper pathString="arena.totalPoints" /> : {points}
           </StatisticTitle>
         </UserBoardWrapper>
       </Wrapper>
@@ -75,7 +77,7 @@ export const ArenaHistoryPage = () => {
         </HistoryList>
         <LeaderBoardWrapper>
           <LeaderBoardTitleStyled>
-            🏆 <I18nWrapper pathString="arena.leaderboard" />
+            <span role="img">🏆 </span><I18nWrapper pathString="arena.leaderboard" />
           </LeaderBoardTitleStyled>
           {leaderBoard.data &&
             leaderBoard.data.map((el: any, index: number) => (

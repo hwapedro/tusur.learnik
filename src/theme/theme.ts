@@ -7,6 +7,7 @@ export const lightTheme = {
   container: '#ffff',
   titleText: '#1D3354',
   commonText: '#515151',
+  fieldtext:'#003459',
   toggleBorder: '#FFF',
   link: '1px solid rgb(0,167,225);',
 
@@ -30,6 +31,8 @@ export const lightTheme = {
   commonButton: '#ffffff',
   checkButton: '#00A7E1',
   line: 'rgb(180,187,192)',
+
+  notif: 'white',
 
   boxShadow: '1.35484px 1.35484px 7.4194px rgba(0,0,0,0.04);',
   //general elevation levels
@@ -75,6 +78,8 @@ export const darkTheme = {
   line: 'rgba(180,187,192, 0.9)',
   commonButton: 'rgba(255, 255, 255, .10)',
   checkButton: 'rgba(0,167,225, 0.5)',
+
+  notif: '#2b2d30',
 
   //general elevation levels
   elevation0: 'rgba(255, 255, 255, 0)',

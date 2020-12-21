@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-import { times, has, isEmpty } from 'ramda'
+import React, { useState } from 'react'
+import { has, isEmpty } from 'ramda'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
 
 import { TaskSwitch } from '../../Tasks/TaskSwitch'
@@ -8,27 +7,12 @@ import { TaskSwitch } from '../../Tasks/TaskSwitch'
 import { ArenaEndPage } from './ArenaEndPage/ArenaEndPage'
 import { ArenaWaitPage } from './ArenaWaitPage/ArenaWaitPage'
 import {
-  WrapperStyled,
-  HeaderPageWrapper,
-  TitleWrapper,
-  TitleStyled,
   PageWrapper,
   TaskWrapper,
-  TitlePageWrapper,
-  TitlePage,
-  LivesTextWrapper,
-  LivesTextStyled,
-  LivesWrapper,
-  FullLiveStyled,
-  EmptyLiveStyled,
   ButtonWrapper,
-  ContinueButtonStyled,
   SkipButtonStyled,
   CheckButtonStyled,
-  LessonWrapper,
   TaskSwitchWrapper,
-  TaskWrapperStyled,
-  LivesContentWrapper,
   ButtonContentWrapper,
   TaskAnimation,
 } from './ArenaPage.style'

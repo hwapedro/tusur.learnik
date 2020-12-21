@@ -29,13 +29,12 @@ export const LabelStyled = styled.label`
 export const InputStyled = styled(MaskInput)`
   width: 100%;
   height: 35px;
-  border: none;
+  border: 1px solid #B4BBC0;
   font-size: 15px;
   padding: 2px 10px;
   color: ${(props) => props.theme.commonText};
   box-sizing: border-box;
   border-radius: 5px;
-
   font-weight: 200;
   background: ${(props) => props.theme.elevation3};
 

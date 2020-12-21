@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useStore } from 'effector-react'
 
-import { getAchievements, setLoading } from '../../../../../store/profile/events'
+import { getAchievements } from '../../../../../store/profile/events'
 import { profileStore } from '../../../../../store/profile/model'
 import { Badge } from '../../../../../store/profile/types'
 

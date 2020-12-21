@@ -1,12 +1,10 @@
 import React, { FC, useState } from 'react'
-import { useLocation, useHistory } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { useStore } from 'effector-react'
 import { CSSTransition } from 'react-transition-group'
 
 import { profileStore } from '../../../../store/profile/model'
 
-import { NavMenu } from '../NavMenu/NavMenu'
-import { Description } from '../../Description/Description'
 import { Burger } from '../Burger/Burger'
 
 import { I18nSwitch } from '../../I18n/I18nSwitch/I18nSwitch'

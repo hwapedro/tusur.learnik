@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
-import { Formik, FormikActions, Form, Field } from 'formik'
-import query from 'query-string'
+import { Formik, FormikActions, Field } from 'formik'
 import { useLocation } from 'react-router-dom'
 import * as Yup from 'yup'
 
@@ -21,9 +20,6 @@ import { NewPasswordFormValues } from './SendPassword.interface'
 import { sendPassword } from '../../../../../store/auth/events'
 
 const SendPassword: FC = () => {
-  const { search } = useLocation()
-  const { rid } = query.parse(search)
-
   const initialValues = {
     password: '',
     passwordRepeat: '',

@@ -5,7 +5,6 @@ import { useHistory } from 'react-router-dom'
 
 import { FormField } from '../../../../shared/FormField/FormField'
 import { I18nWrapper } from '../../I18n/I18nWrapper/I18nWrapper'
-import { t } from '../../I18n/i18n'
 
 import { RESET_PASSWORD, COURSES_PAGE } from '../../../../global/routes'
 

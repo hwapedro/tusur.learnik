@@ -49,20 +49,23 @@ export const CoursePage: FC<CoursePageProps> = () => {
     inQueue,
     queueTime,
   } = useCourseFetcher()
+
   const history = useHistory()
   const socket = useContext(SocketContext)
   const [isOpen, setIsOpen] = useState<boolean>(false)
-  const [timer, setTimer] = useState<number>(0)
+  const [timer, setTimer] = useState<number>(inQueue ? Math.floor((new Date().getTime() - queueTime) / 1000) : 0)
   const increment = useRef<any>(null)
   const [precentProgress, setPrecentProgress] = useState<number>(0)
   const [circleProgressRadius, setCircleProgressRadius] = useState<number>(0)
 
   useEffect(() => {
+    console.log('@@@', inQueue)
     if (inQueue) {
       increment.current = setInterval(() => {
         setTimer(Math.floor((new Date().getTime() - queueTime) / 1000))
       }, 1000)
     } else {
+      setTimer(0)
       clearInterval(increment.current)
     }
   }, [inQueue])

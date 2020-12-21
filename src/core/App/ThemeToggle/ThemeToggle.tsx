@@ -1,7 +1,6 @@
-import React, { FC, useState } from 'react'
+import React, { FC } from 'react'
 import { useStore } from 'effector-react'
 
-import { ToggleCheckBox, ToggleLabel, ToogleSpan } from './ThemeToggle.style'
 import { profileStore } from '../../../store/profile/model'
 import { changeTheme } from '../../../store/profile/events'
 
