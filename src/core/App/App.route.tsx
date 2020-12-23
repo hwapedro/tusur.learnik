@@ -101,7 +101,7 @@ export const AppRoutes: FC = () => {
   return isLogin ? <ActivityRoutes /> : <AuthRoutes />
 }
 
-const socket = io('http://germangorodnev.com:8000')
+const socket = io('https://socket.learnik.fun')
 export const SocketContext = React.createContext(socket)
 
 const WithPreload: FC<PreloaderWrapperProps> = ({ children }) => {
