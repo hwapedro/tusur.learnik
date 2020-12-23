@@ -128,10 +128,6 @@ const WithPreload: FC<PreloaderWrapperProps> = ({ children }) => {
           // setQueue({ time: new Date().getTime(), queue: false, courseIndex: 0 })
           break
         }
-        case 'opponentFound': {
-          setQueue({ time: new Date().getTime(), queue: false, courseIndex: 0 })
-          break
-        }
         case 'wonArena': {
           setArenaVictory({ victory: 'win' })
           break
@@ -145,22 +141,15 @@ const WithPreload: FC<PreloaderWrapperProps> = ({ children }) => {
           break
         }
         case 'opponentFound': {
-          console.log('opponentFound')
-
           const { opponent } = data
+          setQueue({ time: new Date().getTime(), queue: false, courseIndex: 0 })
           enterRoom({ opponent })
-
+          console.log('@@@@@@@@@', '123123123')
           history.push(`/arena`)
 
           socket.send({
             type: 'leaveArena',
           })
-          // this.ROOM_ID = room;
-          // this.opponent = opponent;
-          // this.task = room.tasks[0];
-          // this.room = room;
-          // clearInterval(this.timeInQueueInterval);
-          // this.nextQuestion();
           break
         }
         default: {
