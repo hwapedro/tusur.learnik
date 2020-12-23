@@ -6,7 +6,7 @@ module.exports = function(app) {
     proxy({
       target: 'https://server.learnik.fun/',
       changeOrigin: true,
-      secure: false
+      secure: true
     }),
   )
 }
