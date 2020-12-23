@@ -62,7 +62,7 @@ export const ArenaHistoryPage = () => {
       </Wrapper>
       <GridWrapperStyled>
         <HistoryList>
-          {history.reverse().map((item, index) => (
+          {history.map((item, index) => (
             <HistoryItem key={index}>
               <HistoryContentWrapper won={item.won}>
                 <GameResultWrapper>{resolveResult(item.won)}</GameResultWrapper>
@@ -99,7 +99,7 @@ export const ArenaHistoryPage = () => {
               </NumberStyled>
               <LeaderBoardItemContentWrapper>
                 <ScoreWrapper>
-                  {place.points} <I18nWrapper pathString="arena.isYou" />
+                  {place.points} <I18nWrapper pathString="arena.points" /> <I18nWrapper pathString="arena.isYou" />
                 </ScoreWrapper>
                 <NameStyled>{username}</NameStyled>
               </LeaderBoardItemContentWrapper>

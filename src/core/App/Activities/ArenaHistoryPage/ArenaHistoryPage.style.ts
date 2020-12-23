@@ -299,7 +299,7 @@ export const LeaderBoardItemWrapper = styled.div<{ position: number }>`
 
 export const NumberStyled = styled.div<{ position: number }>`
   height: 100%;
-  width: 20px;
+  width: 30px;
   margin: 0 15px 0 0px;
   font-size: 38px;
 
@@ -357,9 +357,11 @@ export const StatisticTitle = styled.div`
 
 export const UsernameStyled = styled.span`
   font-size: 20px;
-  
+  margin: 0 0 0 15px;
+
   ${media.rubber} {
     font-size: 1.11rem;
+    margin: 0 0 0 0.83rem;
   }
 
 `
