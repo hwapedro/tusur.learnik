@@ -144,7 +144,6 @@ const WithPreload: FC<PreloaderWrapperProps> = ({ children }) => {
           const { opponent } = data
           setQueue({ time: new Date().getTime(), queue: false, courseIndex: 0 })
           enterRoom({ opponent })
-          console.log('@@@@@@@@@', '123123123')
           history.push(`/arena`)
 
           socket.send({
