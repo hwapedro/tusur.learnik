@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { media } from '../../../../theme/helper'
 
 export const MenuWrapper = styled.nav<{ open: boolean }>`
-  background: ${({ theme }) => (theme.elevation2 ? '#303234' : '#fdfdfd')};
+  background: ${({ theme }) => theme.notif};
   transform: ${({ open }) => (open ? 'translateY(0)' : 'translateY(-100%)')};
   height: auto;
   text-align: left;
@@ -30,7 +30,7 @@ export const BurgerWrapper = styled.div`
 
 export const CrossStyled = styled.div`
   height: 25px;
-  background-color: ${({ theme }) => (theme.elevation2 ? '#303234' : '#fdfdfd')};
+  background-color: ${({ theme }) => (theme.notif)};
   border-radius: 5px;
 
   &:after {

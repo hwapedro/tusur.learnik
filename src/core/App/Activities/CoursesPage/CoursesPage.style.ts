@@ -121,7 +121,7 @@ export const CourseCardStyled = styled.div<{
 
   ${media.phone} {
     width: 100%
-    height: 227px;
+    height: auto;
     margin-bottom: 15px;
     margin-right: 0;
       &:after {
@@ -232,7 +232,9 @@ export const CourseBottomWrapper = styled.div`
     display: block;
     margin-top: 48px;
     width: 100%;
+    height: auto;
     position: relative;
+    margin-bottom: 15px;
   }
 `
 
@@ -330,9 +332,12 @@ export const CourseButton = styled.div`
     display: block;
     font-size: 1.33rem;
     line-height: 1rem;
+    margin-left: 0;
+    text-align: end;
+    margin-top: 15px;
     &:after {
       height: 0.66rem;
-      margin: 0.16rem 0 0 0.55rem;
+      margin: 3px 0 0 10px;
       width: 0.5rem;
       background-size: 0.5rem 0.66rem;
     }
@@ -356,7 +361,6 @@ export const BeginStyled = styled(CourseButton)`
   }
 
   ${media.phone} {
-    margin-top: 15px;
     margin-left: 0;
     text-align: end;
   }
@@ -368,6 +372,7 @@ export const ContinueStyled = styled(CourseButton)`
   background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
   &:after {
     background-image: url("data:image/svg+xml,%3Csvg width='9' height='12' viewBox='0 0 9 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.879394 2.31475L5.44818 6.40657L0.879394 10.4984L2.38423 11.8461L8.45785 6.40657L2.38423 0.967009L0.879394 2.31475Z' fill='url(%23paint0_linear)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='4.66862' y1='11.8461' x2='4.66862' y2='0.967009' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23E0C3FC'/%3E%3Cstop offset='1' stop-color='%238EC5FC'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
   }
@@ -377,9 +382,8 @@ export const ContinueStyled = styled(CourseButton)`
   }
 
   ${media.phone} {
-    margin-top: 15px;
-    margin-left: 0;
     text-align: end;
+    margin: 3px 0 0 10px;
   }
 `
 
